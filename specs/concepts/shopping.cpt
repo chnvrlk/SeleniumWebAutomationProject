@@ -1,0 +1,16 @@
+# Nagivate to shop page
+* Click on element "//a[text()='Shop']" with locator "xpath"
+* Check element visible ".product-categories" "css"
+
+# Select random product
+* Select random element ".woocommerce-LoopProduct-link" from element list with "css"
+
+# Saved and verify product price on hashmap
+* Save "//div[@itemprop='offers']/p/span" 's text value with "price" "xpath"
+* Click on element "//button[text()='Add to basket']" with locator "xpath"
+* Click on element "a[title='View your shopping cart']" with locator "css"
+* Compare the value saved with the "price" to the value of "//td[@data-title='Price'] / span" "xpath"
+
+# Remove product on basket
+* Click element "a[title='Remove this item']" with Javascript and locator "css"
+* Check element visible ".cart-empty" "css"

@@ -1,0 +1,24 @@
+# Go to automation practice page
+* Go to "https://practice.automationtesting.in/"
+* Check element visible "img[title='Automation Practice Site']" "css"
+
+
+# Nagivate to account page
+* Click element "//a[text()='My Account']" with Javascript and locator "xpath"
+* Check element visible "form[class='login']" "css"
+
+# Enter valid username and password
+* write text "cihanvarlik98@gmail.com" value to "username" with locator "id"
+* write text "CIHAN0666" value to "password" with locator "id"
+* Click element "input[value='Login']" with Javascript and locator "css"
+
+# Enter valid username and invalid password
+* write text "cihanvarlik98@gmail.com" value to "username" with locator "id"
+* write text "SABAN0612" value to "password" with locator "id"
+* Click element "input[value='Login']" with Javascript and locator "css"
+
+# Verify login
+* Check element visible "//a[text()='Sign out']" "xpath"
+
+# Verify error message
+* Check element visible ".woocommerce-error" "css"
