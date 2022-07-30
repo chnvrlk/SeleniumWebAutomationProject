@@ -16,7 +16,7 @@ import java.util.Random;
 public class BaseStep extends BaseTest
 {
 
-    //Fluent waitte hata var kontrol edilecek
+
     WebElement findElementWaitUntil(String element, String locator){
 
         Wait<WebDriver> wait = new FluentWait<>(driver)
