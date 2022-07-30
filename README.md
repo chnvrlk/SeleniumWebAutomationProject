@@ -1,4 +1,4 @@
-                                                        Proje Hakkında
+                                                      Proje Hakkında
                                                                 
 Herhangi bir web uygulama bağlılığı olmadan tüm web uygulamalarını test ederken kullanılabilecek bir projedir.
 
